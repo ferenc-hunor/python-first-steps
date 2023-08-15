@@ -10,7 +10,10 @@ print("Válassz egyet az alábbiakból és írd be a számát:\n"
 
 # TODO: validate user input
 user_hand = input("A te számod: ")
+
 print(f'A te kezed: {hand_to_value[int(user_hand)-1]}')
 cpu_value = random.choice(hand_to_value)
 print(f'A gép keze: {cpu_value}')
 cpu_hand = hand_to_value.index(cpu_value)
+
+print()

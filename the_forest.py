@@ -9,3 +9,4 @@ print(hatizsak)
 
 del hatizsak[1]
 print(hatizsak)
+pr
